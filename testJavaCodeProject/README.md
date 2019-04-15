@@ -1,1 +1,0 @@
-This is a test model for the core language semantics. Various results might go unexpected, but this is a safe place for this.
