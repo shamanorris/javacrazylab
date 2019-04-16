@@ -3,7 +3,6 @@ package text;
 public class Substrings {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String filenameExt = "000447424_NdgDoc.pdf";
 		subFilename(filenameExt);
 		subLastNDigits(5, filenameExt); 

@@ -78,7 +78,6 @@ public class MultipartEntityBuilderTest {
 		try {
 			is = new FileInputStream(docPath);
 		} catch (FileNotFoundException e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
 
