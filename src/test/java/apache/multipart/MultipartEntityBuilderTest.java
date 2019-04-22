@@ -14,8 +14,7 @@ import org.apache.http.entity.mime.content.StringBody;
 public class MultipartEntityBuilderTest {
 
 	public static void main(String args[]){
-		String envAttr = "{\n"+
-  "\"NOTIFY\": [" +
+		String envAttr = "{\n" + "\"NOTIFY\": [" +
     "\"/generic-service/batch/updateStatoFatture/envelope/200/636\"" +
   "],"+
   "\"mittente\": \"null\","+
