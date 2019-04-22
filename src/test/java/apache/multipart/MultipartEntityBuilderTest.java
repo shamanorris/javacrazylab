@@ -18,7 +18,7 @@ public class MultipartEntityBuilderTest {
 				+ "]," + "\"mittente\": \"null\"," + "\"tipoBusta\": \"HUI_CONS \"" + "}";
 		String envMeta = "{" + "\"ABI\": \"null\"," + "\"CANALE\": \"null\"," + "\"TIPO_SUPPORTO\": \"null\","
 				+ "\"UO\": \"null\"" + "}";
-
+		String randomNewString = "RANDOM values just for testing purposes";
 		String docMeta = "{"
 				+ "\"dct-extra::url_notifica_conservato\": \"/generic-service/batch/updateStatoFatture/grafometrica/300/636\","
 				+ "\"dct-meta::cf_cliente\": \"cf_cliente_123\","
