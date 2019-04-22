@@ -3,7 +3,8 @@ package lambdas;
 public class Lambdas {
 
     public static void main(String args[]){
-        Lambdas tester = new Lambdas();
+		@SuppressWarnings("unused")
+		Lambdas tester = new Lambdas();
 
         //with type declaration
         //MathOperation addition = (int a, int b) -> a + b;
@@ -15,7 +16,8 @@ public class Lambdas {
         int operation(int a, int b);
     }
 
-    private int operate(int a, int b, MathOperation mathOperation) {
+	@SuppressWarnings("unused")
+	private int operate(int a, int b, MathOperation mathOperation) {
         return mathOperation.operation(a, b);
     }
 }
