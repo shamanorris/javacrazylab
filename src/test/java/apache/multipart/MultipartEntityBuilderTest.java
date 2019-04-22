@@ -20,7 +20,7 @@ public class MultipartEntityBuilderTest {
   "],"+
   "\"mittente\": \"null\","+
   "\"tipoBusta\": \"HUI_CONS \""+
-"}";
+				"}";
 		String envMeta = "{" +
 				  "\"ABI\": \"null\","+
 				  "\"CANALE\": \"null\","+
